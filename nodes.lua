@@ -13,17 +13,17 @@ fachwerk.register_fachwerk("clay", "default_clay.png", S("Clay"), "hades_core:cl
 fachwerk.register_fachwerk("brick", "default_brick.png", S("Bricks"), "hades_core:brick")
 fachwerk.register_fachwerk("stonebrick", "default_stone_brick.png", S("Stone Brick"), "hades_core:stonebrick")
 fachwerk.register_fachwerk("cobble", "default_cobble.png", S("Cobble"), "hades_core:cobble")
-fachwerk.register_fachwerk("cobble_baked", "default_cobble_baked.png", S("Baked Cobble"), "hades_core:cobble_baked")
+fachwerk.register_fachwerk("cobble_baked", "hades_core_cobble_baked.png", S("Baked Cobble"), "hades_core:cobble_baked")
 fachwerk.register_fachwerk("stone", "default_stone.png", S("Stone"), "hades_core:stone")
-fachwerk.register_fachwerk("stone_baked", "default_stone_baked.png", S("Baked Stone"), "hades_core:stone_baked")
-fachwerk.register_fachwerk("stonebrick_baked", "default_stone_brick_baked.png", S("Baked Stone Brick"), "hades_core:stonebrick_baked")
-fachwerk.register_fachwerk("tuff", "default_tuff.png", S("Tuff"), "hades_core:tuff")
-fachwerk.register_fachwerk("tuff_baked", "default_tuff_baked.png", S("Baked Tuff"), "hades_core:tuff_baked")
+fachwerk.register_fachwerk("stone_baked", "hades_core_stone_baked.png", S("Baked Stone"), "hades_core:stone_baked")
+fachwerk.register_fachwerk("stonebrick_baked", "hades_core_stone_brick_baked.png", S("Baked Stone Brick"), "hades_core:stonebrick_baked")
+fachwerk.register_fachwerk("tuff", "hades_core_tuff.png", S("Tuff"), "hades_core:tuff")
+fachwerk.register_fachwerk("tuff_baked", "hades_core_tuff_baked.png", S("Baked Tuff"), "hades_core:tuff_baked")
 
-fachwerk.register_fachwerk("cactus_brick", "default_cactus_brick.png", S("Cactus Brick"), "hades_core:cactus_brick")
-fachwerk.register_fachwerk("chondrite_brick", "default_chondrite_brick.png", S("Chondrite Brick"), "hades_core:chondrite_brick")
-fachwerk.register_fachwerk("essexite_brick", "default_essexite_brick.png", S("Essexite Brick"), "hades_core:essexite_brick")
-fachwerk.register_fachwerk("marble_brick", "default_marble_brick.png", S("Marble Brick"), "hades_core:marble_brick")
+fachwerk.register_fachwerk("cactus_brick", "hades_core_cactus_brick.png", S("Cactus Brick"), "hades_core:cactus_brick")
+fachwerk.register_fachwerk("chondrite_brick", "hades_core_chondrite_brick.png", S("Chondrite Brick"), "hades_core:chondrite_brick")
+fachwerk.register_fachwerk("essexite_brick", "hades_core_essexite_brick.png", S("Essexite Brick"), "hades_core:essexite_brick")
+fachwerk.register_fachwerk("marble_brick", "hades_core_marble_brick.png", S("Marble Brick"), "hades_core:marble_brick")
 fachwerk.register_fachwerk("sandstone_brick", "default_sandstone_brick.png", S("Sandstone Brick"), "hades_core:sandstone_brick")
 
 if additional_fachwerk_types == true then
@@ -43,7 +43,7 @@ local basic_colors = {
 
 for key,name in pairs(basic_colors) do
 	name = S(name)
-	fachwerk.register_fachwerk("brick_"..key, "default_brick_"..key..".png", name.." Brick", "hades_core:brick_"..key)
+	fachwerk.register_fachwerk("brick_"..key, "hades_core_brick_"..key..".png", name.." Brick", "hades_core:brick_"..key)
 	fachwerk.register_fachwerk("colwood_"..key, "hades_trees_colwood_"..key..".png", name.." Wood Planks", "hades_trees:colwood_"..key)
 end
 
