@@ -25,6 +25,7 @@ fachwerk.register_fachwerk("chondrite_brick", "hades_core_chondrite_brick.png", 
 fachwerk.register_fachwerk("essexite_brick", "hades_core_essexite_brick.png", S("Essexite Brick"), "hades_core:essexite_brick")
 fachwerk.register_fachwerk("marble_brick", "hades_core_marble_brick.png", S("Marble Brick"), "hades_core:marble_brick")
 fachwerk.register_fachwerk("sandstone_brick", "default_sandstone_brick.png", S("Sandstone Brick"), "hades_core:sandstone_brick")
+fachwerk.register_fachwerk("sandstone_volcanic_brick", "hades_core_sandstone_volcanic_brick.png", S("Volcanic Sandstone Brick"), "hades_core:sandstone_volcanic_brick")
 
 if additional_fachwerk_types == true then
 	fachwerk.register_fachwerk("wood", "default_wood.png", S("Common Wood"), "hades_trees:wood")
